@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String... args) {
-        //OtherMenu.menu();
-        menu();
+        OtherMenu.menu();
+       // menu();
     }
 
     public static void menu() {

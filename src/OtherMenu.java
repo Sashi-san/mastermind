@@ -99,6 +99,7 @@ public class OtherMenu {
     private static void applySubPlay(String input) {
         if (input.equals("1")) {
             System.out.println("Vous jouez au mode Challenger");
+            GameMode.challenger();
         } else if (input.equals("2")) {
             System.out.println("Vous jouez au mode Defenseur");
         } else if (input.equals("3")) {
